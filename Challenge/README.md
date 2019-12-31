@@ -9,3 +9,5 @@ After unzipping the given file we get a binary **"ch1.bin"**. Let's run the file
 >So after doing **x/s 0x8048841** we find that the value is **"123456789"**. So let us enter this as the password for the binary. 
 
 ![password](Challenge/img2.png)
+
+> It gets accepted and gives the flag **123456789!**
