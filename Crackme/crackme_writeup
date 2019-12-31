@@ -1,0 +1,26 @@
+CRACKME 0X00a:
+
+For the challenge we have to insert a password and it will show the message. I ran the executable in gdb and disassembled the main function. Examining the code I got to know that it is using strcmp to compare the entered password and the correct password. Using 'x/s' I inspected the variable above the function call and it returned a string "g00dJ0B" and when I gave it as the password it accepted it.
+
+CRACKME 0X00b:
+w0wgreat
+
+CRACKME 0X01:
+5274
+
+CRACKME 0X02:
+338724
+
+
+CRACKME 0X03:
+338724
+
+CRACKME 0X04:
+The sum of the entered numbers must be 15
+
+CRACKME 0X05:
+The sum of entered digits must be 16
+
+CRACKME 0X06,0x07,0x08,0x09:
+The sum of the entered digits must be sixteen and also we have to set an environment variable to "LOLO".
+So the input should be LOLO=./crackme0x06 and then enter a number whose digits sum up to sixteen.

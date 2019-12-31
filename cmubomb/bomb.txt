@@ -1,0 +1,22 @@
+Phase 1:
+Public speaking is very easy.
+
+Phase 2:
+1 2 6 24 120 720
+
+from the first condition check we will get to know that the first value is 1
+set breakpoint at <phase_2+54>
+and check the value at eax for each iteration.
+
+Phase 3:
+
+3 k 251
+
+Phase 4:
+9
+
+Phase 5:
+opekma
+
+when the input letters are anded bitwise the string must be giants.
+
