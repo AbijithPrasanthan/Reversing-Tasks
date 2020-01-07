@@ -1,3 +1,3 @@
 # BINARY BOMB LABS
 
-* [PHASE_1](https://github.com/AbijithPrasanthan/Reversing-Tasks/edit/master/cmubomb)
+* [PHASE_1](https://github.com/AbijithPrasanthan/Reversing-Tasks/blob/master/cmubomb/Phase_1.md)
