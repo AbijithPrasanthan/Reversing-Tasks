@@ -1,6 +1,6 @@
 # faulty 
 
-Let us run the binary in gdb and see what its disassembly looks like. 
+Let us run the [binary](https://github.com/AbijithPrasanthan/Reversing-Tasks/blob/master/faulty/faulty) in gdb and see what its disassembly looks like. 
 
 ![main.png](main.png)
 
