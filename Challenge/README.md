@@ -1,7 +1,7 @@
 # ch1.zip
 ---------
 
-After unzipping the given file we get a binary **"ch1.bin"**. Let's run the file in **gdb**.
+After unzipping the given file we get a [binary **"ch1.bin"**](https://github.com/AbijithPrasanthan/Reversing-Tasks/blob/master/Challenge/ch1.zip). Let's run the file in **gdb**. 
 
 ![gdb-image](img1.png)
 
@@ -14,7 +14,7 @@ After unzipping the given file we get a binary **"ch1.bin"**. Let's run the file
 # ch3.bin
 ----------
 
->Let's run the given binary in gdb right away. The first thing that we see is that ptrace is being used so we won't be able to run the program in a debugger. Also like in the last binary in **main+17** a value is being wrote into *ebp-0xc*. So let us look what it is by doing **x/s 0x80c2888** which gives us a string *ksuiealohgy*. 
+>Let's run [the given binary](https://github.com/AbijithPrasanthan/Reversing-Tasks/blob/master/Challenge/ch3.bin) in gdb right away. The first thing that we see is that ptrace is being used so we won't be able to run the program in a debugger. Also like in the last binary in **main+17** a value is being wrote into *ebp-0xc*. So let us look what it is by doing **x/s 0x80c2888** which gives us a string *ksuiealohgy*. 
 
 ![gdb](img3.png)
 
